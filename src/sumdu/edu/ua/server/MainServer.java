@@ -5,5 +5,6 @@ public class MainServer {
         ChatServer chatServer = new ChatServer();
         Thread tChatServer = new Thread((Runnable) chatServer);
         tChatServer.start();
+
     }
 }
